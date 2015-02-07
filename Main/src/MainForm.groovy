@@ -32,7 +32,7 @@ class MainForm{
     {
         theform.edt {  // edt method makes sure UI is build on Event Dispatch Thread.
             lookAndFeel 'nimbus'  // Simple change in look and feel.
-            frame(title: 'Address', size: [350, 350],
+            frame(title: 'Grade Calculator', size: [350, 350],
                     show: true, locationRelativeTo: null,
                     defaultCloseOperation: EXIT_ON_CLOSE) {
                 borderLayout(vgap: 5)
