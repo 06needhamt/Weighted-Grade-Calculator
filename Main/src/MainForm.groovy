@@ -82,7 +82,7 @@ class MainForm{
                         grade2 = Integer.parseInt(GradeField2.getText())
                         gradeWeight1 = Integer.parseInt(GradeWeightField1.getText())
                         gradeWeight2 = Integer.parseInt(GradeWeightField2.getText())
-                        if((gradeWeight1 + gradeWeight2 ) != 100)
+                        if((gradeWeight1 + gradeWeight2 ) <=> 100)
                         {
                             JOptionPane.showMessageDialog(null,"Grade Weightings must total 100")
                             return
